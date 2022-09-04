@@ -125,7 +125,6 @@ void searching(int n,int a,int b)
             if(_count==l)
             {
                 cout<<a-l+2<<","<<b+1<<" to "<<a+1<<","<<b+1;
-                printf("%d,%d to %d,%d\n",a-l+2,b+1,a+1,b+1);
                 _count=1;
                 return;
             }
@@ -191,7 +190,7 @@ int main()
     int i,j,k,m;
 
     cout<<"enter size of crossword-";
-    scanf("%d",&m);
+    cin>>m;
 
     cout<<"enter the crossword\n";
 
